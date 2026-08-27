@@ -8,7 +8,7 @@ title: Elisa's Digital Garden
 
 參考 [digital garden](https://maggieappleton.com/garden-history) 的概念而成，內容會分成以下三種：
 
-### 🌱 Seedling 最近種下的
+### 🌱 Seed 最近種下的
 
 ### 🌿 Growing 正在生長
 [[酸種麵包實驗記錄]]
