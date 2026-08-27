@@ -11,7 +11,7 @@ title: Elisa's Digital Garden
 ### 🌱 Seed 最近種下的
 
 ### 🌿 Growing 正在生長
-[[酸種麵包實驗記錄]]
+[[Sourdough_Lab_Reoport]]
 
 ### 🌳 Evergreen 比較成熟
 
