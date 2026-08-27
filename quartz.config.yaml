@@ -230,7 +230,6 @@ plugins:
         - description
         - tags
         - aliases
-        - stage
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---

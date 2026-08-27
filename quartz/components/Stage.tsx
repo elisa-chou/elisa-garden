@@ -1,4 +1,8 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import {
+  QuartzComponent,
+  QuartzComponentConstructor,
+  QuartzComponentProps,
+} from "./types"
 
 const Stage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const stage = fileData.frontmatter?.stage
@@ -13,9 +17,15 @@ const Stage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
     return null
   }
 
+  const labels = {
+    seed: "Seed",
+    growing: "Growing",
+    evergreen: "Evergreen",
+  }
+
   return (
-    <div className={`stage stage-${stage}`}>
-      {stage}
+    <div class={`stage stage-${stage}`}>
+      {labels[stage as keyof typeof labels]}
     </div>
   )
 }
@@ -24,11 +34,11 @@ Stage.css = `
 .stage {
   font-size: 0.8rem;
   margin: 0.5rem 0 1.5rem;
-  text-transform: capitalize;
+  color: var(--secondary);
 }
 
 .stage-seed {
-  color: #8a8a8a;
+  color: var(--gray);
 }
 
 .stage-growing {
