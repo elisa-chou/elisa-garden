@@ -1,3 +1,8 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+.page > #quartz-body .center article p + ul,
+.page > #quartz-body .center article p + ol {
+  margin-top: 0;
+}
