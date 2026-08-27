@@ -1,18 +1,15 @@
 ---
 title: Elisa's Digital Garden
 ---
+# 致訪客
+我叫Elisa，這裡是我的數位花園。
+所謂的數位花園，是參考 [digital garden](https://maggieappleton.com/garden-history) 這篇文章的概念而成。
 
-這裡是我的數位花園。
+大意是，這個網站就像一個花園，花園裡可能有很多剛萌芽還不成熟的想法、紀錄，有可能是最近剛種下的想法種子、正在萌芽的想法小樹苗，或已經長成大樹的完整文章。
+即使有些想法很片段、尚未經過深思或打磨，但我仍然先公開發布，隨著時間，我或許會逐漸澆灌修改這些想法，讓它們趨於成熟。
 
-這裡放的是一些可能還不成熟的想法、紀錄。
+希望藉由這樣的創作形式，能讓我更自在、並且花更多時間好好的用文字記錄想法。
 
-參考 [digital garden](https://maggieappleton.com/garden-history) 的概念而成，內容會分成以下三種：
-
-### 🌱 Seed 最近種下的
-
-### 🌿 Growing 正在生長
-[[01.Sourdough_Lab_Reoport]]
-
-### 🌳 Evergreen 比較成熟
-
-
+# 關於網站
+這個網站，是把我的obsidian筆記，透過Quartz這套工具(?)發布到github上的。
+雖然美觀上可能還有待加強，但這個做法替我節省了很多維護的時間，非常推薦😆
