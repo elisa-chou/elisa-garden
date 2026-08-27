@@ -1,24 +1,16 @@
-# Elisa's Garden
+# Elisa's Digital Garden
 
-這是一座正在生長中的數位花園。
+這裡放的是一些可能還不成熟的想法、紀錄。
+參考 [digital garden](https://maggieappleton.com/garden-history) 的概念而成
+內容會分成三種
+### 🌱 Seedling 最近種下的
 
-這裡不只放完成的文章，
-也放一些還在思考、還沒有答案的東西。
 
-有些想法可能只停留在幾百字。
 
-有些可能慢慢長成完整文章。
+### 🌿 Growing 正在生長
+[[酸種麵包實驗記錄]]
 
----
 
-## 🌱 正在生長
+### 🌳 Evergreen 比較成熟
 
-- [[數位花園]]
-- [[創作]]
 
----
-
-## 🌿 關於這個地方
-
-我想試著用這篇文章的做法來公開紀錄想法：
-https://maggieappleton.com/garden-history
