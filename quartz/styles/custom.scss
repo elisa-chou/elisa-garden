@@ -1,6 +1,149 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Garden theme: quiet botanical colour, paper-like surfaces, and soft paths.
+
+body {
+  background:
+    radial-gradient(circle at 8% 8%, color-mix(in srgb, var(--tertiary) 13%, transparent) 0 1px, transparent 1.5px)
+      0 0 / 28px 28px,
+    radial-gradient(ellipse at 85% 0%, color-mix(in srgb, var(--tertiary) 12%, transparent), transparent 42rem),
+    var(--light);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--tertiary) 38%, transparent);
+}
+
+.page {
+  & .center {
+    border-radius: 18px;
+  }
+
+  & .page-header {
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--secondary) 20%, transparent);
+  }
+
+  & article {
+    line-height: 1.85;
+
+    > h1 {
+      font-family: var(--titleFont);
+      font-size: clamp(2.15rem, 5vw, 3.15rem);
+      letter-spacing: 0.01em;
+      line-height: 1.28;
+    }
+
+    h2 {
+      margin-top: 2.6rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--lightgray);
+    }
+
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 0.48rem;
+      height: 0.48rem;
+      margin: 0 0.55rem 0.08rem 0.08rem;
+      border: 2px solid var(--tertiary);
+      border-radius: 70% 0 70% 0;
+      transform: rotate(-28deg);
+    }
+
+    blockquote {
+      margin: 1.5rem 0;
+      padding: 0.75rem 1.1rem;
+      border: 1px solid color-mix(in srgb, var(--secondary) 18%, transparent);
+      border-left: 4px solid var(--tertiary);
+      border-radius: 0 12px 12px 0;
+      background: color-mix(in srgb, var(--tertiary) 7%, transparent);
+    }
+
+    hr {
+      width: 4.5rem;
+      margin: 3rem auto;
+      border: 0;
+      border-top: 2px solid var(--tertiary);
+      opacity: 0.55;
+    }
+
+    img {
+      border: 1px solid color-mix(in srgb, var(--secondary) 20%, transparent);
+      border-radius: 12px;
+      box-shadow: 0 10px 24px color-mix(in srgb, var(--dark) 10%, transparent);
+    }
+  }
+}
+
+a.internal:not(.tag-link) {
+  padding: 0.08rem 0.25rem;
+  border-radius: 4px;
+  background-color: color-mix(in srgb, var(--tertiary) 13%, transparent);
+}
+
+.internal.tag-link,
+.tags a {
+  display: inline-block;
+  margin: 0.15rem 0.25rem 0.15rem 0;
+  padding: 0.12rem 0.55rem;
+  border: 1px solid color-mix(in srgb, var(--secondary) 28%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--tertiary) 12%, transparent);
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+.sidebar {
+  .page-title a {
+    font-family: var(--titleFont);
+    font-size: 1.35rem;
+    letter-spacing: 0.02em;
+  }
+
+  .explorer {
+    padding: 0.85rem;
+    border: 1px solid color-mix(in srgb, var(--secondary) 18%, transparent);
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--light) 84%, var(--tertiary));
+  }
+
+  .explorer button.desktop-explorer h2::before {
+    content: "✦";
+    margin-right: 0.42rem;
+    color: var(--tertiary);
+    font-size: 0.75em;
+  }
+
+  .explorer-content ul li > a {
+    display: block;
+    margin: 0.1rem 0;
+    padding: 0.25rem 0.45rem;
+    border-radius: 6px;
+    transition: background-color 0.18s ease, color 0.18s ease;
+  }
+
+  .explorer-content ul li > a:hover,
+  .explorer-content ul li > a.active {
+    color: var(--dark);
+    background: color-mix(in srgb, var(--tertiary) 18%, transparent);
+  }
+}
+
+.content-meta,
+.breadcrumbs {
+  color: var(--gray);
+  font-size: 0.88rem;
+}
+
+.graph,
+.toc,
+.backlinks {
+  padding: 0.9rem;
+  border: 1px solid color-mix(in srgb, var(--secondary) 15%, transparent);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--light) 88%, var(--tertiary));
+}
 
 .page article p + ul,
 .page article p + ol {

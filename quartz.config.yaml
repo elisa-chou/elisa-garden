@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: zh-TW
   baseUrl: elisa-chou.github.io/elisa-garden
   ignorePatterns:
     - private
@@ -16,30 +16,31 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      title: Noto Serif TC
+      header: Noto Serif TC
+      body: Noto Sans TC
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#f7f6f0"
+        lightgray: "#dce4d7"
+        gray: "#9aa99a"
+        darkgray: "#48544a"
+        dark: "#26352a"
+        secondary: "#41634b"
+        tertiary: "#78936d"
+        highlight: "#e8eee1"
+        textHighlight: "#f4d98c88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1b241d"
+        lightgray: "#354437"
+        gray: "#829084"
+        darkgray: "#d5ded2"
+        dark: "#f0f4ed"
+        secondary: "#b7d0a8"
+        tertiary: "#90af7f"
+        highlight: "#314033"
+        textHighlight: "#846d2488"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -135,6 +136,8 @@ plugins:
     layout:
       position: left
       priority: 50
+    options:
+      title: 花園小徑
   - source: "@quartz-community/graph"
     enabled: true
     layout:
